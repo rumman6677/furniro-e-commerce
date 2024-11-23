@@ -1,4 +1,4 @@
-
+import image1 from '../../assets/Rectangle 36.png'
 
 const FuniroFurniture = () => {
     return (
@@ -12,7 +12,7 @@ const FuniroFurniture = () => {
       <div className="flex ml-3  ">
       <div className="w-[545px] ">
         <div className="flex">
-            <img className="h-[382px] " src="./src/assets/Rectangle 36.png" alt="" />
+            <img className="h-[382px] " src={image1} alt="" />
             <div className="mt-16">
             <img className="w-[451px] h-[318px]" src="./src/assets/Rectangle 38.png" alt="" />
             </div>
