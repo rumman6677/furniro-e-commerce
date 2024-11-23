@@ -1,6 +1,12 @@
 import { useEffect, useState } from "react";
 import ShowShop from "../ShowShop/ShowShop";
 import { Link, useLoaderData } from "react-router-dom";
+import vector1 from '../../assets/Vector (1).png'
+import vector2 from '../../assets/Vector (2).png'
+import vector3 from '../../assets/Vector (3).png'
+import vector4 from '../../assets/Vector (4).png'
+import rec1 from '../../assets/Rectangle 1.png'
+import grp63 from '../../assets/Group 63.png'
 
 
 const Shop = () => {
@@ -18,8 +24,8 @@ const Shop = () => {
     return (
         <div className="w-[1440px] mx-auto">
             <div className="py-10">
-                <img src="/src/assets/Rectangle 1.png" alt="" />
-                <img className="" src="/src/assets/Group 63.png" alt="" />
+                <img src={rec1} alt="" />
+                <img className="" src={grp63} alt="" />
             </div>
             <div className=" absolute top-[200px] left-[700px]">
             <h2 className=" font-[500] text-[42px]">Shop</h2>
@@ -45,7 +51,7 @@ const Shop = () => {
                 {/* 1 */}
                 <div className="flex gap-3">
                     <div>
-                        <img src="/src/assets/Vector (1).png" alt="" />
+                        <img src={vector1} alt="" />
                     </div>
                     <div>
                         <h2 className="font-semibold text-2xl">High Quality</h2>
@@ -55,7 +61,7 @@ const Shop = () => {
                 {/* 2 */}
                 <div className="flex gap-3">
                     <div>
-                        <img src="/src/assets/Vector (2).png" alt="" />
+                        <img src={vector2} alt="" />
                     </div>
                     <div>
                         <h2 className="font-semibold text-2xl">Warranty Protection</h2>
@@ -65,7 +71,7 @@ const Shop = () => {
                 {/* 3 */}
                 <div className="flex gap-3">
                     <div>
-                        <img src="/src/assets/Vector (3).png" alt="" />
+                        <img src={vector3} alt="" />
                     </div>
                     <div>
                         <h2 className="font-semibold text-2xl">Free Shipping</h2>
@@ -75,7 +81,7 @@ const Shop = () => {
                 {/* 4 */}
                 <div className="flex gap-3">
                     <div>
-                        <img src="/src/assets/Vector (4).png" alt="" />
+                        <img src={vector4} alt="" />
                     </div>
                     <div>
                         <h2 className="font-semibold text-2xl">24 / 7 Support</h2>

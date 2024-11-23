@@ -1,4 +1,10 @@
 import image1 from '../../assets/Rectangle 36.png'
+import image2 from '../../assets/Rectangle 38.png'
+import image3 from '../../assets/Rectangle 37.png'
+import image4 from '../../assets/Rectangle 39.png'
+import image5 from '../../assets/Rectangle 40.png'
+import image8 from '../../assets/Rectangle 41.png'
+import image9 from '../../assets/Rectangle 44.png'
 
 const FuniroFurniture = () => {
     return (
@@ -14,36 +20,36 @@ const FuniroFurniture = () => {
         <div className="flex">
             <img className="h-[382px] " src={image1} alt="" />
             <div className="mt-16">
-            <img className="w-[451px] h-[318px]" src="./src/assets/Rectangle 38.png" alt="" />
+            <img className="w-[451px] h-[318px]" src={image2} alt="" />
             </div>
         </div>
         <div className="flex mt-4">
             
-            <img src="./src/assets/Rectangle 37.png" alt="" />
+            <img src={image3} alt="" />
             
-            <img className="w-[344px] h-[220px]" src="./src/assets/Rectangle 39.png" alt="" />
+            <img className="w-[344px] h-[220px]" src={image4} alt="" />
         </div>
         </div>
 
         {/* middle */}
 
         <div className="w-[310px] py-36">
-            <img className="w-[295px]" src="./src/assets/Rectangle 40.png" alt="" />
+            <img className="w-[295px]" src={image5} alt="" />
         </div>
         {/* middle */}
 
         <div className="w-[565px] ">
         <div className="flex h-[346px]">
         
-            <img className="w-[290px] h-[344px] my-24" src="./src/assets/Rectangle 43.png" alt="" />
+            <img className='mt-16 w-[290px] h-[352px] mb-5'  src="https://i.ibb.co.com/PtZbKkV/Rectangle-43.png" alt="" />
             
             
-            <img className="h-[440px]" src="./src/assets/Rectangle 45.png" alt="" />
+            <img className='h-[416px]' src="https://i.ibb.co.com/ZGmZkVT/Rectangle-45.png" alt="" />
             
         </div>
-        <div className="flex ">
-            <img className="w-[178px] h-[242px] my-28" src="./src/assets/Rectangle 41.png" alt="" />
-            <img className="w-[258px] h-[196px] my-28" src="./src/assets/Rectangle 44.png" alt="" />
+        <div className="flex mt-6 ">
+            <img className="w-[178px] h-[242px] my-16" src={image8} alt="" />
+            <img className="w-[258px] h-[196px] my-16" src={image9} alt="" />
         </div>
 
         </div>

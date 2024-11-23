@@ -1,13 +1,15 @@
 import { TiLocation } from "react-icons/ti";
 import { PiPhoneCallFill } from "react-icons/pi";
 import { IoTime } from "react-icons/io5";
+import rec1 from '../../assets/Rectangle 1.png'
+import grp63 from '../../assets/Group 63.png'
 
 const Contact = () => {
     return (
         <div className="w-[1440px]">
             <div className="py-10">
-                <img src="/src/assets/Rectangle 1.png" alt="" />
-                <img className="" src="/src/assets/Group 63.png" alt="" />
+                <img src={rec1} alt="" />
+                <img className="" src={grp63} alt="" />
                 
             </div>
             <div className="absolute top-[200px] left-[660px] "> 

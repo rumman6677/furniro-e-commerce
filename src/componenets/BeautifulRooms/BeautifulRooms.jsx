@@ -1,4 +1,6 @@
 import { GoArrowRight } from "react-icons/go";
+import image11 from '../../assets/Rectangle 25.png'
+import image12 from '../../assets/Rectangle 24.png'
 
 const BeautifulRooms = () => {
     return (
@@ -21,7 +23,7 @@ const BeautifulRooms = () => {
           {/* Middle Section */}
           <div className="w-1/3 relative">
             <img
-              src="./src/assets/Rectangle 24.png" // Replace with room image
+              src={image12} // Replace with room image
               alt="Room"
               className="w-[404px] h-[582px] object-cover rounded-lg bg-white opacity-70 shadow-md"
             />
@@ -41,7 +43,7 @@ const BeautifulRooms = () => {
           {/* Right Section */}
           <div className="w-1/3 relative">
             <img
-              src="./src/assets/Rectangle 25.png" 
+              src={image11} 
               alt="Room"
               className="w-[372px] h-[486px] object-cover rounded-lg shadow-md"
             />

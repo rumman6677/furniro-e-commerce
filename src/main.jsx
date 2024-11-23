@@ -12,7 +12,6 @@ import About from './componenets/About/About';
 import Contact from './componenets/Contact/Contact';
 import Shop from './componenets/Shop/Shop';
 import ErrorPage from './componenets/ErrorPage/ErrorPage';
-import ShowAllProducts from './componenets/ShowAllProducts/ShowAllProducts';
 import NewCard from './componenets/NewCard/NewCard';
 
 
