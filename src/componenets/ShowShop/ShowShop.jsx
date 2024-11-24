@@ -1,4 +1,4 @@
-import { Navigate, NavLink } from "react-router-dom";
+import { Link, Navigate, NavLink } from "react-router-dom";
 
 
 const ShowShop = ({shop}) => {
@@ -15,7 +15,9 @@ const ShowShop = ({shop}) => {
             <h2 className="font-bold text-[20px] ">Rp {price}</h2>
             </div>
 
-            <button className="w-[285px] h-[45px] font-medium bg-red-200"><NavLink to='/newCard'>Add To Details</NavLink></button>
+        <Link to='/newCard'>
+        <button className="w-[285px] h-[45px] font-medium bg-red-200">Add To Details</button>
+        </Link>
             
            </div>
     );
