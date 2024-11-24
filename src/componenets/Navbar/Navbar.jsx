@@ -1,4 +1,4 @@
-
+import banner1 from '../../assets/banner.png'
 
 import React from 'react';
 
@@ -12,7 +12,7 @@ const Navbar = () => {
       
         <div className="relative ">
         <img 
-          src="https://i.ibb.co.com/85RhT99/scandinavian-interior-mockup-wall-decal-background-1.png" 
+          src={banner1} 
           alt="Background" 
           class=" md:w-full   md:h-[750px] object-cover"/>
   
