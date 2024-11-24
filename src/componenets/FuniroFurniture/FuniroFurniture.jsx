@@ -5,6 +5,8 @@ import image4 from '../../assets/Rectangle 39.png'
 import image5 from '../../assets/Rectangle 40.png'
 import image8 from '../../assets/Rectangle 41.png'
 import image9 from '../../assets/Rectangle 44.png'
+import image43 from '../../assets/Rectangle 43.png'
+import image45 from '../../assets/Rectangle 45.png'
 
 const FuniroFurniture = () => {
     return (
@@ -41,10 +43,9 @@ const FuniroFurniture = () => {
         <div className="w-[565px] ">
         <div className="flex h-[346px]">
         
-            <img className='mt-16 w-[290px] h-[352px] mb-5'  src="https://i.ibb.co.com/PtZbKkV/Rectangle-43.png" alt="" />
-            
-            
-            <img className='h-[416px]' src="https://i.ibb.co.com/ZGmZkVT/Rectangle-45.png" alt="" />
+            <img className='mt-16 w-[290px] h-[352px] mb-5'  src={image43} alt="" />
+
+            <img className='h-[416px]' src={image45} alt="" />
             
         </div>
         <div className="flex mt-6 ">
